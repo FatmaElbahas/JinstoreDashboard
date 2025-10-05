@@ -1,0 +1,179 @@
+{
+  "nav": {
+    "orders": "الطلبات",
+    "search": "بحث...",
+    "notifications": "الإشعارات",
+    "cart": "سلة التسوق"
+  },
+  "sidebar": {
+    "ecommerce": "التجارة الإلكترونية",
+    "dashboard": "لوحة التحكم",
+    "orders": "الطلبات",
+    "detail": "التفاصيل",
+    "products": "المنتجات",
+    "buyer": "المشتري",
+    "customers": "العملاء",
+    "invoices": "الفواتير",
+    "apps": "التطبيقات",
+    "chats": "المحادثات",
+    "email": "البريد الإلكتروني",
+    "todo": "قائمة المهام",
+    "pages": "الصفحات",
+    "profile": "الملف الشخصي",
+    "users": "المستخدمين",
+    "authentication": "المصادقة",
+    "error": "صفحات الخطأ",
+    "salesManager": "مدير المبيعات",
+    "listView": "عرض قائمة",
+    "gridView": "عرض شبكي",
+    "productDetail": "تفاصيل المنتج",
+    "shoppingCart": "سلة التسوق",
+    "checkout": "إتمام الطلب"
+  },
+  "orders": {
+    "breadcrumb": {
+      "dashboard": "لوحة التحكم",
+      "orders": "الطلبات"
+    },
+    "filters": {
+      "allOrders": "كل الطلبات",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "completed": "مكتمل",
+      "refunded": "مسترد",
+      "cancelled": "ملغي",
+      "sort": "ترتيب",
+      "sortByTotal": "ترتيب حسب الإجمالي",
+      "sortByName": "ترتيب حسب الاسم",
+      "search": "بحث",
+      "actions": "إجراءات +"
+    },
+    "table": {
+      "id": "رقم الطلب",
+      "name": "الاسم",
+      "date": "التاريخ",
+      "total": "الإجمالي",
+      "status": "الحالة",
+      "actions": "إجراءات",
+      "selectAll": "تحديد الكل"
+    },
+    "status": {
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "completed": "مكتمل",
+      "refunded": "مسترد",
+      "cancelled": "ملغي"
+    },
+    "confirmDelete": "هل أنت متأكد من أنك تريد حذف هذا الطلب؟",
+    "notFound": "الطلب غير موجود",
+    "notFoundMessage": "الطلب الذي تبحث عنه غير موجود.",
+    "backToOrders": "العودة للطلبات",
+    "modals": {
+      "edit": {
+        "title": "تعديل الطلب",
+        "placeholders": {
+          "name": "أدخل اسم العميل",
+          "selectStatus": "اختر الحالة"
+        },
+        "errors": {
+          "nameRequired": "اسم العميل مطلوب",
+          "dateRequired": "التاريخ مطلوب",
+          "totalRequired": "المبلغ يجب أن يكون أكبر من 0",
+          "statusRequired": "الحالة مطلوبة"
+        }
+      },
+      "delete": {
+        "title": "حذف الطلب",
+        "confirmTitle": "هل أنت متأكد؟",
+        "confirmMessage": "لا يمكن التراجع عن هذا الإجراء. سيتم حذف الطلب نهائياً.",
+        "orderDetails": "تفاصيل الطلب"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} متجر جين -",
+    "themesLink": "قوالب بلاك بلو",
+    "licenses": "التراخيص",
+    "changelog": "سجل التغييرات",
+    "help": "الحصول على مساعدة"
+  },
+  "pagination": {
+    "previous": "الصفحة السابقة",
+    "next": "الصفحة التالية",
+    "page": "صفحة {{page}}"
+  },
+  "products": {
+    "title": "المنتجات",
+    "addProduct": "إضافة منتج",
+    "breadcrumb": {
+      "dashboard": "لوحة التحكم",
+      "products": "المنتجات"
+    },
+    "filters": {
+      "allProducts": "كل المنتجات",
+      "beverages": "المشروبات",
+      "snacks": "الوجبات الخفيفة",
+      "food": "طعام",
+      "sort": "ترتيب",
+      "sortPriceLow": "السعر: من الأقل للأعلى",
+      "sortPriceHigh": "السعر: من الأعلى للأقل",
+      "sortRating": "التقييم",
+      "actions": "إجراءات +"
+    },
+    "filterSidebar": {
+      "title": "تصفية المنتجات",
+      "keywords": "الكلمات المفتاحية",
+      "keywordsPlaceholder": "هاتف، سماعات، حذاء...",
+      "categories": "التصنيفات",
+      "all": "الكل",
+      "accessories": "إكسسوارات",
+      "phone": "هاتف",
+      "headphone": "سماعات",
+      "camera": "كاميرا",
+      "price": "السعر",
+      "colors": "الألوان"
+    },
+    "card": {
+      "addToCart": "أضف للسلة",
+      "inCart": "في السلة",
+      "addToWishlist": "أضف للمفضلة"
+    },
+    "confirmDelete": "هل أنت متأكد من أنك تريد حذف هذا المنتج؟"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "itemCount": "{{count}} منتج في السلة",
+    "empty": "السلة فارغة",
+    "subtotal": "المجموع الفرعي:",
+    "shipping": "الشحن:",
+    "tax": "الضريبة:",
+    "total": "الإجمالي:",
+    "orderSummary": "ملخص الطلب",
+    "continueShopping": "متابعة التسوق",
+    "viewCart": "عرض السلة",
+    "checkout": "إتمام الطلب",
+    "remove": "إزالة من السلة"
+  },
+  "error": {
+    "title": "عذراً! الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها قد تم نقلها أو حذفها أو ربما لم تكن موجودة من الأساس.",
+    "backHome": "العودة للرئيسية",
+    "browseProducts": "تصفح المنتجات",
+    "helpText": "هل تحتاج إلى مساعدة؟",
+    "contactSupport": "تواصل مع الدعم"
+  },
+  "loading": {
+    "message": "جاري التحميل...",
+    "pleaseWait": "الرجاء الانتظار",
+    "fetchingData": "جاري تحميل البيانات"
+  },
+  "common": {
+    "edit": "تعديل",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "saving": "جاري الحفظ...",
+    "deleting": "جاري الحذف...",
+    "back": "العودة"
+  }
+}
